@@ -45,7 +45,7 @@ body{
     border: rgba(255,255,255,0.5);
 }
 
-@media (min-width:480px) and (max-width: 768px){
+@media (min-width: 768px){
     .card-container{
         grid-template-columns: 1fr 1fr;
         
