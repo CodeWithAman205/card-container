@@ -6,9 +6,17 @@ body{
 
 .heading{
     text-align: center;
-    color: #333;
+    color: #eee;
+    background-color: TEAL;
+    border: 2px dotted red;
 }
 
+h2{
+    background: linear-gradient(to left top, rgb(5, 184, 255),rgb(255, 4, 255) );
+    padding: 10px;
+    font-weight: 200;
+    box-shadow: 0 0 12px rgba(0.0,0,0,1);
+}
 .card-container{
     display: grid;
     grid-template-columns: 1fr;
